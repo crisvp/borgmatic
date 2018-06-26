@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+export PYBUILD_NAME=borgmatic
+clean:
+	rm -rf borgmatic.egg-info .cache
+	dh $@ --with python3 --buildsystem=pybuild
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
