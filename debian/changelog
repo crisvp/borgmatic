@@ -1,5 +1,6 @@
-borgmatic (1.2.0-1) UNRELEASED; urgency=medium
+borgmatic (1.2.0-2) UNRELEASED; urgency=medium
 
   * Initial release.
+  * Fix dependencies.
 
- -- Cris van Pelt <cris@melkfl.es>  Tue, 26 Jun 2018 10:42:14 +0200
+ -- root <root@0cfce4194340>  Wed, 27 Jun 2018 11:47:18 +0000
